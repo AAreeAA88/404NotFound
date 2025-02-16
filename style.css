@@ -1,0 +1,91 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.main-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    margin-top: 13%;
+}
+
+.main-text>h1{
+    font-size: 170px;
+}
+
+.main-text>h2{
+    font-size: 50px;
+}
+
+.main-text>p{
+    padding-top: 10px;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 30px;
+    
+}
+
+.b1{
+    border-radius: 30px;
+    box-shadow: 4px 4px 14px rgb(0, 0, 0);
+    padding: 15px;
+    background-color: blue;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 100px;
+    border: 0;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.b1:hover{
+    cursor: pointer;
+}
+
+.b2{
+    border-radius: 30px;
+    box-shadow: 4px 4px 14px rgb(0, 0, 0);
+    padding: 15px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 100px;
+    font-size: 20px;
+    border: 0;
+}
+
+.b2:hover{
+    cursor: pointer;
+}
+
+.img1{
+    width: 500px;
+    rotate: 180deg;
+
+
+}
+
+.img2{
+    width: 450px;
+    rotate: 270deg; 
+
+}
+
+.images{
+    display: flex;
+    justify-content: space-between;
+}
+
+#my{
+    display: none;
+    font-size: 200px;
+}
